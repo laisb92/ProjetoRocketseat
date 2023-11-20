@@ -9,7 +9,7 @@
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "off",
 
   // explorer
   "explorer.compactFolders": false,
@@ -33,5 +33,8 @@
       "source": "Git Bash"
     }
   },
-  "terminal.integrated.defaultProfile.windows": "Git Bash"
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
