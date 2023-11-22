@@ -16,7 +16,7 @@
 
 .light{
   --text-color: black;
-  --bg-url: url(./images/light-mode.jpg);
+  --bg-url: url(./images/bg-desktop-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.50);
   --surface-color:rgba(0, 0, 0, 0.50);
   --surface-color-hover:rgba(0, 0, 0, 0.02);
@@ -76,9 +76,9 @@ margin-top: 8px;
   transform: translateY(-50%);
 }
 
-.light #switch button{
-  right: 0;
-  left: initial';
+.light #switch button {
+  right:0;
+  left: initial;
 }
 
 #swicht span{
@@ -107,19 +107,15 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-
-padding: 16px 24px;
-
-background: rgba(255, 255, 255, 0.10);
-border: 1px solid var(--stroke-color);
-border-radius: 8px;
-
-backdrop-filter: blur(4px);
--webkit-background-filter: blur(4px);
-
-text-decoration: none;
-font-weight: 500;
-transition: background .2s;
+  padding: 16px 24px;
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid var(--stroke-color);
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  -webkit-background-filter: blur(4px);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background .2s;
 }
 
 /* pseudo-selector */
@@ -131,12 +127,12 @@ ul li a:hover{
 
 /*social links*/
 #social-links {
-display: flex;
-padding: 24px 0;
-font-size: 24px;
-justify-content: center;
-align-items: flex-start;
-align-self: stretch;
+  display: flex;
+  padding: 24px 0;
+  font-size: 24px;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
 }
 
 /*para as coisas ficarem ao centro perfeitas*/
