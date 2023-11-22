@@ -18,7 +18,7 @@ Curso exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias
 <br>
 
 <p align="center">
-  <img alt="ProjetoRocketseat" src=".github/preview.png" width="100%">
+  <img alt="ProjetoRocketseat" src="./github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
